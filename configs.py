@@ -5,16 +5,16 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.environ.get("API_ID", 12345))
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-    BOT_SESSION_NAME = os.environ.get("BOT_SESSION_NAME", "MdiskSearchBot")
+    API_ID = int(os.environ.get("API_ID", "25356202"))
+    API_HASH = os.environ.get("API_HASH", "d65d4aa3f001d165ce52acb7bcbe153f")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6019386824:AAH2qeX_AckDCcdm3h-_0GCi865xUKiPp9g")
+    BOT_SESSION_NAME = os.environ.get("BOT_SESSION_NAME", "Unlimitedsearchbot")
     USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING", "")
-    CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -100))
+    CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-100"))
     BOT_USERNAME = os.environ.get("BOT_USERNAME")
     BOT_OWNER = int(os.environ.get("BOT_OWNER"))
     DATABASE_URL = os.environ.get("DATABASE_URL")
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL"," None")
     ABOUT_BOT_TEXT = """<b> <a href='https://t.me/LazyUrlHunterrBOT'>Lazy Url Hunterr</a> is an open source project.
 
     Devs: 
